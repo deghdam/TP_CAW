@@ -1,0 +1,68 @@
+img {
+    border: 1px solid red;
+}
+
+h1{
+    background-color:black;
+}
+
+h1,h2{
+    color: grey;
+}
+
+.s h2{
+    border: 1px solid green;
+}
+
+#mon {
+    color:pink;
+}
+
+#mon > div {
+    border: 1px solid red;
+
+}
+
+#mon > div > span {
+    background-color: yellow;
+}
+
+#wed > h2:hover{
+    color: green;
+}
+
+#mon > h2:hover , #tue > h2:hover {
+
+    color: red;
+
+}
+
+h1,h2:not(.s h2){
+    color: pink;
+}
+
+ul > :first-child {
+    text-transform: uppercase;
+
+}
+
+ul > :nth-child(2){
+    color: red;
+}
+
+#tue div :first-child {
+    color: blue;
+}
+
+#tue div :nth-child(3){
+    font-size: 200%;
+}
+
+ul > :nth-child(9){
+    color: blue;
+}
+
+
+ul > :nth-child(5n+3){
+    color: green;
+}
